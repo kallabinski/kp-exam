@@ -1,0 +1,62 @@
+= Comparison of Golang and Object Pascal in regards to object oriented programming
+Florian Kallabinski <Florian.Kallabinski@stud.th-rosenheim.de>
+:toc:
+
+
+== Introduction
+This paper compares the programming languages Go and Object Pascal with focus on their implementation of object oriented programming principles. 
+These principles and their implementation will be showcased on the basis of an example project.
+The versions this comparison is based on are Go 1.15.2 and Delphi 10.3 Community Edition.
+
+== Basics
+This section will give a brief overview of the history and goals of the programming languages in question and also describe the principles of object oriented programming, whose implementation will later be examined.
+
+=== Go
+Go was invented with the intention to have only a few necessary keywords. Furthermore it should be fast and be able to be used in systems programming.
+
+=== Object Pascal
+Object Pascal is based on Pascal, which is an older imperative programming language. Their relationship is similar to C++ and C, where Object Pascal added concepts and functionality of object oriented programming on top of the already existing Pascal programming language.
+
+For many people the terms Object Pascal and Delphi are interchangeable. 
+But this is not entirely the truth.
+Delphi is an implementation of the Object Pascal programming language, which was created in 1995 by Borland and is currently maintained by Embarcadero.
+Embarcadero nowadays offers a free version of their language and IDE, but it limits the total revenue to 5000$. 
+If you don`t like that, you have to either pay for upgraded versions of Delphi or switch to Lazarus, which is a free alternative from the Lazarus Foundation.
+But since Delphi is the by far more well-known implementation of Object Pascal, this paper will use the Delphi 10.3 Community Edition. 
+
+=== Object Oriented Programming
+* Inheritance
+* Interfaces
+* Polymorphism
+* Classes
+* Visibility
+* Type safety
+* Generics?
+* Garbage Collection?
+* Definition and initialization of variables
+
+== OOP in Go
+=== Example project
+=== Concepts used
+* struct
+* interfaces
+* any type
+* "mount" of functions to structs
+=== Pro`s and con`s
+
+== OOP in Object Pascal
+=== Example project
+=== Concepts used
+* records
+* classes
+* interfaces
+* class variables and class static variables
+* rtti?
+=== Pro`s and con`s
+
+== Conclusion
+
+== Sources
+* https://www.lazarus-ide.org/
+* https://www.embarcadero.com/de/products/delphi/starter
+* https://www.thoughtco.com/history-of-delphi-1056847
